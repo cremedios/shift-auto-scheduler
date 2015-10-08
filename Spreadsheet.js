@@ -14,7 +14,7 @@ var Config = {
 };
 
 function Main(event) {
-    var url = "https://docs.google.com/spreadsheets/d/1Gjz77nIHGhP8qEAIGMao1NHy2M7CCzO73NAAssmBiug/edit?usp=sharing"; //this link must have write access in the spreadsheet
+    var url = "https://docs.google.com/spreadsheets/d/[YOUR LINK]"; //this link must have write access in the spreadsheet
     Logger.log("Opening: " + url);
     var doc = SpreadsheetApp.openByUrl(url);
     var sheets = doc.getSheets();
